@@ -1,0 +1,109 @@
+header,
+footer {
+  background-color: rgb(0, 84, 159);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 5%;
+
+  margin: 5px;
+}
+
+aside {
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 5%;
+
+  margin: 5px;
+}
+
+.card {
+  display: inline-block;
+
+  border-radius: 5px;
+  background-color: white;
+  padding: 5%;
+
+  margin: 5px;
+}
+
+body {
+  font-family: "Heebo", cursive;
+}
+
+header {
+  font-size: 30px;
+  margin-left: 10%;
+  color: blue;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav a {
+  background-color: grey;
+  padding: 10px;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+main {
+  display: flex;
+  margin: 5%;
+}
+
+article {
+  box-sizing: border-box;
+  width: 80%;
+  padding-left: 10%;
+  margin: 3%;
+}
+
+table {
+  text-align: left;
+}
+td {
+  padding-right: 15px;
+  text-align: left;
+}
+
+.form {
+  position: relative;
+  text-align: center;
+}
+
+.form input {
+  margin: 15px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.form button {
+  cursor: pointer;
+  background: #ff33cc;
+  padding: 0 0 30px 90px;
+}

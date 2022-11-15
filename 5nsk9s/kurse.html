@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kurse</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="stylesheet.css">
+    </style>
+    <script src="main.js" async></script>
+  </head>
+  <body>
+    <header>
+      <h1>Name</h1>
+      <div class="container">
+      <nav class="navbar navbar-light">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html">Startseite</a></li>
+          <li class="nav-item"><a href="pinnwand.html">Pinnwand</a></li>
+          <li class="nav-item"><a href="kurse.html">Kurse</a></li>
+          <li class="nav-item"><a href="galerie.html">Galerie</a></li>
+          <li class="nav-item"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <main>
+      <article>
+      	<section>
+          <table> 
+            <tr>
+              <td> Kursname: </td>
+              <td> <input class="text" type="text" id="Kursname"> </td>
+            </tr>
+            <tr>
+              <td> Kursbeschreibung: </td>
+              <td> <input class="text" type="text" id="Kursbeschreibung"></td>
+            </tr>
+            <tr>
+              <td>Passwort: </td>
+              <td><input class="text" type="password" id="pw"></td>
+            </tr>
+          </table>
+          <button id="create" class="btn btn-primary"> Anlegen </button>
+        </section>
+        <br>
+				<section>
+          <table id="table" class="table">
+            <tr>
+              <th> Kursname </th>
+              <th> Kursbeschreibung </th>
+              <th> Passwort </th>
+              <th> Löschen </th>
+            </tr>
+                        <!--
+
+            <tr>
+              <td> Schwimmen </td>
+              <td> Hallenschwimmen </td>
+              <td> <input class="text" type="password"> </td>
+              <td> <button> Löschen </button> </td>
+            </tr>
+            <tr>
+              <td> Kontakthüpfen </td>
+              <td> Hüpfe dir deine Kontakte </td>
+              <td> <input class="text" type="password"> </td>
+              <td> <button> Löschen </button> </td>
+            </tr>
+-->
+  				</table>
+        </section>        
+      </article>
+ <aside id="right">
+        <a>Übung:      
+      	</a>
+        <br/>
+        <a>Öffnungszeiten          
+      	</a>
+      </aside>
+    </main>
+    <footer>
+      Footer
+    </footer>
+    
+  </body>
+</html>
